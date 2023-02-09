@@ -38,13 +38,25 @@ class _UsertileState extends State<Usertile> {
                         SizedBox(
                           height: 12,
                         ),
-                        CircleAvatar(
-                          child: Center(
-                            child: Text(Chatlists[index].count.toString()),
-                          ),
-                          backgroundColor: Colors.blueGrey,
-                          radius: 12,
-                        )
+                        index % 4 == 0
+                            ? CircleAvatar(
+                                child: Center(
+                                  child:
+                                      Text(Chatlists[index].count.toString()),
+                                ),
+                                backgroundColor: Colors.blueGrey,
+                                radius: 12,
+                              )
+                            // Icon(
+                            //   index % 3 == 0 ? Icons.done_all : Icons.call_missed,
+                            //   color: index % 3 == 0
+                            //       ? Colors.green.shade300
+                            //       : Colors.red,
+                            // ),
+                            : Icon(
+                                Icons.abc,
+                                color: Colors.white,
+                              )
                       ],
                     ))
               ],

@@ -64,20 +64,21 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   assets :
-    - assets/images/myimage.JPEG
-    - assets/images/icons8-whatsapp-100(-xhdpi).png
-    - assets/images/bill-gates-microsoft-portrait-uhd-4k-wallpaper.jpg
-    - assets/images/coding.jpg
-    - assets/images/elon musk.jpg
-    - assets/images/flutter.jpg
-    - assets/images/Mukesh Ambani.jpg
-    - assets/images/Narendra Modi.jpg
-    - assets/images/pinarayi.jpg
-    - assets/images/swiggy.jpg
-    - assets/images/yusuf ali.jpg
-    - assets/images/adani.jpg
-    - assets/images/4k Wallpaper Follow Me.jpg
-    - assets/images/Pencilled Vector Art PNG, Pencil Icon, Pencil Icons, Pencil Clipart, School PNG Image For Free Download.jpg
+    - assets/
+    # - assets/images/myimage.JPEG
+    # - assets/images/icons8-whatsapp-100(-xhdpi).png
+    # - assets/images/bill-gates-microsoft-portrait-uhd-4k-wallpaper.jpg
+    # - assets/images/coding.jpg
+    # - assets/images/elon musk.jpg
+    # - assets/images/flutter.jpg
+    # - assets/images/Mukesh Ambani.jpg
+    # - assets/images/Narendra Modi.jpg
+    # - assets/images/pinarayi.jpg
+    # - assets/images/swiggy.jpg
+    # - assets/images/yusuf ali.jpg
+    # - assets/images/adani.jpg
+    # - assets/images/4k Wallpaper Follow Me.jpg
+    # - assets/images/Pencilled Vector Art PNG, Pencil Icon, Pencil Icons, Pencil Clipart, School PNG Image For Free Download.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

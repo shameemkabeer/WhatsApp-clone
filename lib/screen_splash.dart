@@ -24,34 +24,36 @@ class _ScreensplashState extends State<Screensplash> {
         width: double.infinity,
         height: double.infinity,
         color: Colors.white,
-        child: Column(
-          children: [
-            Column(
-              children: [
-                SizedBox(
-                  height: 250,
-                ),
-                Image.asset(
-                  "assets/images/icons8-whatsapp-100(-xhdpi).png",
-                  height: 100.0,
-                  width: 100.0,
-                ),
-                SizedBox(
-                  height: 380,
-                ),
-                Text(
-                  "from",
-                  style: TextStyle(color: Colors.black54),
-                ),
-                Text(
-                  "Shameem Kabeer",
-                  style: TextStyle(
-                      color: Colors.blueGrey, fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.end,
-                )
-              ],
-            ),
-          ],
+        child: Expanded(
+          child: Column(
+            children: [
+              Column(
+                children: [
+                  SizedBox(
+                    height: 250,
+                  ),
+                  Image.asset(
+                    "assets/images/icons8-whatsapp-100(-xhdpi).png",
+                    height: 100.0,
+                    width: 100.0,
+                  ),
+                  SizedBox(
+                    height: 350,
+                  ),
+                  Text(
+                    "from",
+                    style: TextStyle(color: Colors.black54),
+                  ),
+                  Text(
+                    "Shameem Kabeer",
+                    style: TextStyle(
+                        color: Colors.blueGrey, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.end,
+                  )
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
