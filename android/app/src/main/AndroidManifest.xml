@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.warmapp_clone">
    <application
-        android:label="warmapp_clone"
+        android:label="WarmApp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

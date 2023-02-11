@@ -33,7 +33,8 @@ class _ScreensplashState extends State<Screensplash> {
                     height: 250,
                   ),
                   Image.asset(
-                    "assets/images/icons8-whatsapp-100(-xhdpi).png",
+                    // "assets/images/icons8-whatsapp-100(-xhdpi).png",
+                    "assets/images/whatsapp.png",
                     height: 100.0,
                     width: 100.0,
                   ),
